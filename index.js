@@ -25,9 +25,4 @@ let fruits = ['Apple','Banana','Cherry','Pear']
 $addButton.onclick = function () {
   let randomFruit = fruits[Math.floor(Math.random()*fruits.length)]
   $itemList.innerHTML += `<li>${randomFruit}</li>`
-  // Task: Add a random fruit in <ul id="item-list">
-  // Hints: You can use either:
-  //   $itemList.innerHTML +=
-  //   OR
-  //   $itemList.appendChild(....)
 }
